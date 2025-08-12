@@ -91,9 +91,13 @@ function ContactForm() {
     updateGradient();
 
     // Listen for class changes on <html>
-    const observer = new MutationObserver(updateGradient);
+    const observer = new MutationObserver(updateGradient); 
     observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
-
+    /*
+    whenever the class attribute on <html> changes,
+    when switching between dark and light mode,
+    updateGradient function runs and updates the gradients to match the current theme.
+    */
     return () => observer.disconnect();
   }, []);
 
