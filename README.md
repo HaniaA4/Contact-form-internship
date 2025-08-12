@@ -1,70 +1,76 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📬 Contact Form – Internship Project
 
-## Available Scripts
+A responsive and theme-aware contact form built with React and Tailwind CSS, designed for internship tasks and real-world portfolio use. Users can send messages, toggle between light and dark modes, and enjoy a sleek animated UI.
 
-In the project directory, you can run:
+✨ Features:
 
-### `npm start`
+🌗 Dark/Light Mode Toggle Seamless theme switching with persistent user preference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎨 Animated Gradient Borders Stylish form and button borders that adapt to theme.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📱 Responsive Design Optimized for mobile, tablet, and desktop screens.
 
-### `npm test`
+✅ Form Validation Real-time input validation with helpful error messages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💌 Submission Feedback Displays status updates like “Sending…” and “Message sent!”
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+🛠️ Tech Stack
 
-### `npm run build`
+React (JavaScript)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tailwind CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Vercel (Deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GitHub (Version Control)
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+🚀 Live Demo
 
-### `npm run eject`
+🔗 View the deployed site
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+📂 Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+├── components/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+│      └── ContactForm.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+│      └── ThemeToggle.js
 
-## Learn More
+├── App.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+├── index.js
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+📦 Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git clone https://github.com/HaniaA4/Contact-form-internship
 
-### Code Splitting
+cd Contact-form-internship
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
+npm start
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+🧪 Development Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Tailwind’s darkMode is set to 'class' in tailwind.config.js
 
-### Making a Progressive Web App
+Theme is toggled via document.documentElement.classList
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Gradient borders are animated using custom keyframes
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+🙋‍♀️ Author
 
-### Advanced Configuration
+Hania Aziz
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Junior Full Stack Developer
 
-### Deployment
+haniaaziz095@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+http://www.linkedin.com/in/haniaaziz
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+📄 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
