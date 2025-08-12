@@ -30,13 +30,13 @@ function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed top-5 right-5 z-50 p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition-colors"
+      className="fixed top-5 right-5 z-50 p-2 rounded-full transition-colors"
       aria-label="Toggle dark mode"
     >
       {isDarkMode ? (
-        <Sun className="h-6 w-6 text-yellow-300" />
+        <Sun className="h-6 w-6 text-yellow-200" />
       ) : (
-        <Moon className="h-6 w-6 text-blue-900" />
+        <Moon className="h-6 w-6 text-blue-700" />
       )}
     </button>
   );
