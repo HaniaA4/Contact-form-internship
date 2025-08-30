@@ -35,7 +35,7 @@ src/
 
 ├── components/
 
-│      └── ContactForm.js
+│      └── Footer.js
 
 │      └── ThemeToggle.js
 
